@@ -105,4 +105,19 @@ export default function MathTotalScreen() {
         },
         rline: { fontWeight: "800", marginTop: 6 },
         total: { fontWeight: "900", marginTop: 10, fontSize: 18, color: "#1976d2" },
-      });
+      })
+      
+
+//       Título: “Cuenta rápida”.
+// Input: consumo (monto base).
+// Picker “IVA”:
+// 0%
+// 12%
+// 15%
+// Switch: “Incluir propina (10%)”.
+// Botón “Calcular”.
+// Resultado: subtotal, IVA, propina, total.
+// IVA = consumo × porcentajeIVA.
+// Propina = (si aplica) consumo × 0.10.
+// Total = consumo + IVA + propina.
+// Validar consumo > 0.

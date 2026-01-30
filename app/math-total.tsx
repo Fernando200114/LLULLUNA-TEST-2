@@ -28,17 +28,16 @@ export default function MathTotalScreen() {
       <Text style={styles.subtitle}>total = subtotal + IVA - descuento</Text>
 
       <View style={styles.card}>
-        <Text style={styles.label}>Monto unitario</Text>
+        <Text style={styles.label}>Platos principales </Text>
         <TextInput value={amount} onChangeText={setAmount} keyboardType="numeric" style={styles.input} />
 
-        <Text style={styles.label}>Cantidad</Text>
+        <Text style={styles.label}>Bebidas ($1.50) </Text>
         <TextInput value={qty} onChangeText={setQty} keyboardType="numeric" style={styles.input} />
 
-        <Text style={styles.label}>IVA (%)</Text>
+        <Text style={styles.label}>Postres ($2.25) (%)</Text>
         <TextInput value={taxPct} onChangeText={setTaxPct} keyboardType="numeric" style={styles.input} />
 
-        <Text style={styles.label}>Descuento (%)</Text>
-        <TextInput value={discPct} onChangeText={setDiscPct} keyboardType="numeric" style={styles.input} />
+        
       </View>
 
       <View style={styles.card}>
